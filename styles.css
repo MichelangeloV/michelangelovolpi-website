@@ -1,22 +1,25 @@
 body {
   font-size:120%;
   font-family: 'Linux Libertine', sans-serif;
-  background-color: papayawhip;
+  background-color: #9966CC30; /*papayawhip*/
   margin: 0 auto;
 }
 
 .main-header {
   background-color: #9966CC50;
   text-align: left;
-  padding: 40px;
+  padding: 20px;
+  min-height: 400px;
 }
 
 .main-header img {
+  background-color: #9966CC50;
   float: left;
-  width: 350px;
+  max-width: 420px;
+  width:auto;
   height: auto;
-  margin: 0px 50px 0px 0px;
-  padding: -20px
+  margin: 0px 30px 0px 0px;
+  padding: 10px
 }
 
 .header {
@@ -50,6 +53,24 @@ body {
   color: white;
 }
 
+.hero{
+  background-color: #9966CC50;
+  background-image: url("img/valentinopark.jpg");
+  color: white;
+  padding-top: 20px;
+  padding-bottom:200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 
 h1{
   color: #551A8B;
@@ -59,6 +80,9 @@ h2{
   color: #551A8B;
   }
 
+h3{
+  color: #551A8B;
+  }
 
 .wrapper {
   margin: 0 auto ;
@@ -109,4 +133,21 @@ ul li::marker {
   font-size: 1.5em;
 }
 
+a:link, a:visited {
+  color: (internal value);
+  text-decoration: none;
+  cursor: auto;
+}
+
+/* mouse over link */
+a:hover {
+  color: #04AA6D;
+  font-weight: bold;
+}
+
+/*
+a[href^="mailto:"]
+{
+  color: (internal value);
+}
 
