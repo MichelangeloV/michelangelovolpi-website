@@ -1,7 +1,8 @@
+/* Body, Headers and Paragraphs ::::::::::::::::::::::::::::::::::::::::::::::*/
 body {
   font-size:120%;
   font-family: 'Linux Libertine', sans-serif;
-  background-color: #9966CC30; /*papayawhip*/
+  background-color: #9966CC30; /*papayawhip;*/
   margin: 0 auto;
 }
 
@@ -28,6 +29,33 @@ body {
   padding: 20px;
 }
 
+h1{
+  color: #551A8B;
+  }
+
+h2{
+  color: #551A8B;
+  }
+
+h3{
+  color: #551A8B;
+  }
+
+div.hypjus {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 10px;
+}
+
+ul li::marker {
+  color: #514965;
+  font-size: 1.5em;
+}
+
+/* Navigation bar at the top of the page :::::::::::::::::::::::::::::::::::::*/
 .topnav {
   overflow: hidden;
   background-color: #551A8B;
@@ -53,18 +81,9 @@ body {
   color: white;
 }
 
-.hero{
-  background-color: #9966CC50;
-  background-image: url("img/valentinopark.jpg");
-  color: white;
-  padding-top: 20px;
-  padding-bottom:200px;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
+/* Contain in blocks :::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 .container{
-  max-width: 960px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
@@ -72,42 +91,7 @@ body {
 }
 
 
-h1{
-  color: #551A8B;
-  }
-
-h2{
-  color: #551A8B;
-  }
-
-h3{
-  color: #551A8B;
-  }
-
-.wrapper {
-  margin: 0 auto ;
-  width: 800px;
-  background-color:none;
-}
-
-.img-backgroung {
-  width: auto;
-  height: 200 px;
-  backgroung-image: url();
-  backgroung-size: 200%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-div.hypjus {
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  text-align: justify;
-  text-justify: inter-word;
-  padding: 10px;
-}
-
+/* Images and captions :::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 img {
   border: 0px;
   outline: 0px;
@@ -115,24 +99,18 @@ img {
   padding: 0px;
 }
 
-figure {
-  border: 1px #cccccc solid;
-  padding: 0px;
-  margin: auto;
+.img-type1 {
+  width: 800px;
 }
 
 figcaption {
   color: black;
   font-style: italic;
-  padding: 10px;
   text-align: center;
+  padding: 10px;
 }
 
-ul li::marker {
-  color: #514965;
-  font-size: 1.5em;
-}
-
+/* Links :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 a:link, a:visited {
   color: (internal value);
   text-decoration: none;
@@ -145,9 +123,4 @@ a:hover {
   font-weight: bold;
 }
 
-/*
-a[href^="mailto:"]
-{
-  color: (internal value);
-}
 
